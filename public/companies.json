@@ -1,0 +1,14 @@
+ [
+  { "id": 1, "name": "Frontlines Media", "location": "Mumbai", "industry": "Media", "employees": 120, "revenue": 5.4 },
+  { "id": 2, "name": "Acme Corp", "location": "Bengaluru", "industry": "Software", "employees": 350, "revenue": 18.2 },
+  { "id": 3, "name": "GreenLeaf", "location": "Hyderabad", "industry": "AgriTech", "employees": 45, "revenue": 1.1 },
+  { "id": 4, "name": "FinEdge", "location": "Pune", "industry": "FinTech", "employees": 210, "revenue": 12.6 },
+  { "id": 5, "name": "City Logistics", "location": "Mumbai", "industry": "Logistics", "employees": 95, "revenue": 4.0 },
+  { "id": 6, "name": "HealthPlus", "location": "Chennai", "industry": "Healthcare", "employees": 150, "revenue": 9.7 },
+  { "id": 7, "name": "EduSpark", "location": "Bengaluru", "industry": "EdTech", "employees": 80, "revenue": 3.3 },
+  { "id": 8, "name": "BrightEnergy", "location": "Hyderabad", "industry": "Energy", "employees": 60, "revenue": 2.8 },
+  { "id": 9, "name": "RetailHub", "location": "Pune", "industry": "Retail", "employees": 420, "revenue": 30.5 },
+  { "id": 10, "name": "NanoTech Labs", "location": "Chennai", "industry": "Research", "employees": 22, "revenue": 0.9 },
+  { "id": 11, "name": "DesignWorks", "location": "Mumbai", "industry": "Design", "employees": 12, "revenue": 0.6 },
+  { "id": 12, "name": "CloudScale", "location": "Bengaluru", "industry": "Cloud", "employees": 270, "revenue": 20.0 }
+]
