@@ -1,5 +1,5 @@
 import React from "react";
-import { commonStyles } from "./GlobalStyles/styles.js";
+import { commonStyles } from "./GlobalStyles/styles.jsx";
 
 export default function CompanyCard({ company }) {
   return (
