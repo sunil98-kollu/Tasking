@@ -34,7 +34,7 @@ export default function App() {
     fetchData();
   }, []);
 
-  // derive unique filters
+  //  filtering unique filters
   const locations = ["All", ...Array.from(new Set(companies.map(c => c.location)))];
   const industries = ["All", ...Array.from(new Set(companies.map(c => c.industry)))];
 
@@ -104,9 +104,7 @@ export default function App() {
             ))}
           </div>
         )}
-      </main>
-
-      <footer className="bg-white shadow-md rounded-lg p-6 flex flex-col sm:flex-row justify-between items-center">
+       <div className="bg-white shadow-md rounded-lg p-6 flex flex-col sm:flex-row justify-between items-center">
         <div className="flex space-x-2 mb-4 sm:mb-0">
           <button
             onClick={() => setPage(p => Math.max(1, p - 1))}
@@ -129,7 +127,10 @@ export default function App() {
         <div className="text-gray-500">
           <small>{filtered.length} result(s)</small>
         </div>
-      </footer>
+      </div>
+      </main>
+
+     
     </div>
   );
 }

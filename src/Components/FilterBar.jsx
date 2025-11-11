@@ -1,4 +1,5 @@
 import React from "react";
+import { commonStyles } from "./GlobalStyles/styles";
 
 export default function FilterBar({
   filterQuery, filterSetQuery,
@@ -15,13 +16,13 @@ export default function FilterBar({
           placeholder="Search by company name..."
           value={filterQuery}
           onChange={e => filterSetQuery(e.target.value)}
-          className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className={commonStyles.filterbar}
         />
 
         <select
           value={filterLocationFilter}
           onChange={e => filterSetLocationFilter(e.target.value)}
-          className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className={commonStyles.filterbar}
         >
           {filterLocations.map(loc => <option key={loc} value={loc}>{loc}</option>)}
         </select>
@@ -29,7 +30,7 @@ export default function FilterBar({
         <select
           value={filterIndustryFilter}
           onChange={e => filterSetIndustryFilter(e.target.value)}
-          className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+         className={commonStyles.filterbar}
         >
           {filterIndustries.map(ind => <option key={ind} value={ind}>{ind}</option>)}
         </select>
@@ -37,10 +38,10 @@ export default function FilterBar({
         <select
           value={filterSortBy}
           onChange={e => filterSetSortBy(e.target.value)}
-          className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className={commonStyles.filterbar}
         >
-          <option value="name_asc">Name ↑</option>
-          <option value="name_desc">Name ↓</option>
+          <option value="name_asc">Asc ↑</option>
+          <option value="name_desc">Dsc ↓</option>
         </select>
       </div>
     </div>
