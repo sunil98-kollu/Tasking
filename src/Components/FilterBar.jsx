@@ -1,5 +1,5 @@
 import React from "react";
-import { commonStyles } from "./GlobalStyles/styles";
+import { commonStyles } from "./GlobalStyles/styles.js";
 
 export default function FilterBar({
   filterQuery, filterSetQuery,
